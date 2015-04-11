@@ -18,6 +18,7 @@ public class MyStack<Object> extends ArrayList<Object> {
 		super.add(o);
 	}
 	
+	//reverse the order of the objects
 	public ArrayList<Object> reverse(ArrayList<Object> List){
 		int initialSize = super.size();
 		for(int i = 0; i < initialSize; i++){
